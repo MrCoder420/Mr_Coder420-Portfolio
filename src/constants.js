@@ -1,42 +1,33 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
+import cssLogo from './assets/tech_logo/css.png';
+import expressjsLogo from './assets/tech_logo/express.png';
+import figmaLogo from './assets/tech_logo/figma.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
+import htmlLogo from './assets/tech_logo/html.png';
+import javaLogo from './assets/tech_logo/java.png';
+import javascriptLogo from './assets/tech_logo/javascript.png';
+import materialuiLogo from './assets/tech_logo/materialui.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
+import mysqlLogo from './assets/tech_logo/mysql.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
+import nodejsLogo from './assets/tech_logo/nodejs.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+import postmanLogo from './assets/tech_logo/postman.png';
+import pythonLogo from './assets/tech_logo/python.png';
+import reactjsLogo from './assets/tech_logo/reactjs.png';
+import springbootLogo from './assets/tech_logo/springboot.png';
+import typescriptLogo from './assets/tech_logo/typescript.png';
+import vercelLogo from './assets/tech_logo/vercel.png';
+import vscodeLogo from './assets/tech_logo/vscode.png';
 
 // Experience Section Logo's
-import coding_seekho from './assets/company_logo/coding_seekho.png';
 import calibers_infotech_logo from './assets/company_logo/calibers_infotech_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import coding_seekho from './assets/company_logo/coding_seekho.png';
 
 // Education Section Logo's
 import gokhle from './assets/education_logo/gokhle.png';
@@ -45,14 +36,19 @@ import kvns from './assets/education_logo/kvns.png';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+// import taskremLogo from './assets/work_logo/task_rem.png';
+// import npmLogo from './assets/work_logo/npm.png';
+// import webverLogo from './assets/work_logo/web_dig.png';
+// import cmLogo from './assets/work_logo/cm.png';
+// import imagesearchLogo from './assets/work_logo/image_search.png';
+// import removebgLogo from './assets/work_logo/remove_bg.png';
+import mygpt from './assets/work_logo/chatbot.png';
+import collegeforum from './assets/work_logo/clgf.png';
+import krushiscan from './assets/work_logo/krushiscan.png';
+import digitalmenucard from './assets/work_logo/menucard.jpg';
+import weatherapp from './assets/work_logo/weather.png';
+
 
 
 export const SkillsInfo = [
@@ -191,94 +187,119 @@ export const SkillsInfo = [
   
   
   export const projects = [
-    {
-      id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
+    // {
+    //   id: 0,
+    //   title: "GitHub Profile Detective",
+    //   description:
+    //     "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+    //   image: githubdetLogo,
+    //   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
+    //   github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+    //   webapp: "https://githubprofiledetective.netlify.app/",
+    // },
+    
+    // {
+    //   id: 2,
+    //   title: "Movie Recommendation App",
+    //   description:
+    //     "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+    //   image: movierecLogo,
+    //   tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
+    //   github: "https://github.com/codingmastr/Movie-Recommendation-App",
+    //   webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    // },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "KrushiScan - Plant Disease Detection App",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "An AI-powered web application that detects plant diseases through image uploads and provides personalized fertilizer recommendations. It supports real-time diagnosis, region-based tracking, and step-by-step treatment suggestions to enhance crop health and yield.",
+      image:krushiscan, // replace with your actual image import
+      tags: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "API Integration",
+        "Styled Components",
+        
+        "PostgreSQL",
+        
+        "OpenRouter API"
+      ],
+      github: "https://github.com/MrCoder420/Plant-Desease-Detection",
+      webapp: "https://https://krushiscan.netlify.app", // replace with actual deployed URL
     },
     {
       id: 4,
-      title: "Task Reminder Chrome Extension Tool",
+      title: "College Forum - Online Discussion Platform",
       description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+        "A web-based discussion platform built for students, teachers, and alumni to share educational ideas and social updates. Users can post threads, interact via comments and reactions, and experience safe discussions through automated abusive content filtering by admins.",
+      image: collegeforum, // replace with actual image import
+      tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Content Moderation"],
+      github: "https://github.com/MrCoder420/College_forum.git", // replace with actual GitHub URL
+      // webapp: "https://your-deployed-app-url.com", // replace with live project link
     },
     {
       id: 5,
-      title: "Webverse Digital",
+      title: "WeatherWizard - Real-Time Weather App",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+        "A sleek and responsive web application for checking real-time weather conditions. Built with HTML, CSS, JavaScript, and Bootstrap, it features API integration to fetch live weather data and offers a clean, intuitive user interface for a smooth user experience.",
+      image: weatherapp, // replace with actual image import
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "API Integration",
+        "UI Design",
+        "Full-Stack Development"
+      ],
+      github: "https://github.com/MrCoder420/Weather-App.git", // replace with actual GitHub link
+      // webapp: "https://your-deployed-app-url.com", // replace with live demo URL
     },
     {
       id: 6,
-      title: "Coding Master",
+      title: "Digital Menu Card",
       description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
+        "A web-based application that provides an interactive digital menu with product ordering functionality and an admin panel for menu management. Built with HTML, CSS, JavaScript, PHP, and MySQL, the system allows customers to browse the menu and place orders. The admin panel enables easy management of the menu and orders.",
+      image: digitalmenucard, // replace with actual image import
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "API Integration",
+        "Admin Panel",
+        "Full-Stack Development"
+      ],
+      github: "https://github.com/MrCoder420/Digital-Menu-Card",
+      // webapp: "https://your-deployed-app-url.com", // replace with live demo URL if available
     },
     {
       id: 7,
-      title: "Image Search App",
+      title: "MY GPT - AI Chatbot",
       description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
+        "A responsive and elegant chatbot interface built with vanilla HTML, CSS, and JavaScript, utilizing the OpenRouter API for real-time AI-powered conversations. Originally migrated from a React version to a fully static implementation for simplicity and offline portability. Features a clean UI, animated typing, and seamless user-bot interaction.",
+      image: mygpt, // replace with actual image import
+      tags: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "API Integration",
+        "OpenRouter",
+        "UI Design",
+        "Chatbot",
+        "Static Web App"
+      ],
+      github: "https://github.com/MrCoder420/chatbot.git",
+      // webapp: "https://your-deployed-app-url.com", // add your live demo URL here if available
+    }
+    
+    
+    
+    
+    
+    
+    
+  
   ];  
